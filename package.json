@@ -1,0 +1,25 @@
+{
+  "name": "yarn-github-repos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "git+ssh://git@github.com/webpack/css-loader.git",
+    "extract-text-webpack-plugin": "git+ssh://git@github.com/webpack/extract-text-webpack-plugin.git",
+    "expose-loader": "git+ssh://git@github.com/webpack/expose-loader.git",
+    "html-loader": "git+ssh://git@github.com/webpack/html-loader.git",
+    "imports-loader": "git+ssh://git@github.com/webpack/imports-loader.git",
+    "json-loader": "git+ssh://git@github.com/webpack/json-loader.git",
+    "react": "15.3.0",
+    "react-router": "git+ssh://git@github.com/ReactTraining/react-router.git",
+    "style-loader": "git+ssh://git@github.com/webpack/style-loader.git",
+    "webpack": "git+ssh://git@github.com/webpack/webpack.git",
+    "webpack-dev-middleware": "git+ssh://git@github.com/webpack/webpack-dev-middleware.git",
+    "webpack-dev-server": "git+ssh://git@github.com/webpack/webpack-dev-server.git"
+  }
+}
